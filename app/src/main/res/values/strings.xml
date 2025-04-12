@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">BMI</string>
+    <string name="name">Nome</string>
+    <string name="age">Idade</string>
+    <string name="whg">Peso (Kg)</string>
+    <string name="hgt">Altura (m)</string>
+    <string name="calc">Calcular</string>
+
+
+    <string name="relat">Relatorio nutricional</string>
+    <string name="nome_2">Nome:  </string>
+    <string name="age_2">Idade:  </string>
+    <string name="peso_2">Peso:  </string>
+    <string name="altura_2">Altura:  </string>
+    <string name="imc">Imc:  </string>
+    <string name="clas">Classificação:  </string>
+</resources>

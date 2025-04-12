@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/second"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="32dp"
+    android:layout_marginEnd="8dp"
+    android:layout_marginStart="8dp"
+    tools:context=".Second_activity">
+
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/relat"
+        android:textSize="14pt"
+        android:textAlignment="center"
+
+        />
+
+    <TextView
+        android:id="@+id/nome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nome_2"
+        android:textSize="10pt"
+
+        android:layout_below="@+id/title"
+        android:layout_marginTop="16dp"
+
+        />
+
+    <TextView
+        android:id="@+id/idade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/age_2"
+        android:textSize="10pt"
+
+        android:layout_below="@+id/nome"
+        android:layout_marginTop="16dp"
+
+        />
+
+    <TextView
+        android:id="@+id/peso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/peso_2"
+        android:textSize="10pt"
+
+        android:layout_below="@+id/idade"
+        android:layout_marginTop="16dp"
+
+        />
+
+    <TextView
+        android:id="@+id/altura2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/altura_2"
+        android:textSize="10pt"
+
+        android:layout_below="@+id/peso"
+        android:layout_marginTop="16dp"
+
+        />
+
+    <TextView
+        android:id="@+id/imc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/imc"
+        android:textSize="10pt"
+
+        android:layout_below="@+id/altura2"
+        android:layout_marginTop="16dp"
+
+        />
+
+    <TextView
+        android:id="@+id/clas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/clas"
+        android:textSize="10pt"
+
+        android:layout_below="@+id/imc"
+        android:layout_marginTop="16dp"
+
+        />
+
+
+
+    </RelativeLayout>
+

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="32dp"
+    android:layout_marginEnd="8dp"
+    android:layout_marginStart="8dp"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/nm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/name"
+        android:textSize="10pt"
+
+        />
+
+    <EditText
+        android:id="@+id/nm_ed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nm"
+
+        android:inputType="text"
+
+
+        />
+
+    <TextView
+        android:id="@+id/age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/age"
+        android:textSize="10pt"
+
+        android:layout_below="@+id/nm_ed"
+        android:layout_marginTop="128dp"
+        android:layout_marginStart="32dp"
+
+        />
+
+    <TextView
+        android:id="@+id/peso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/whg"
+        android:layout_below="@+id/nm_ed"
+        android:layout_alignStart="@+id/age"
+        android:layout_marginTop="128dp"
+        android:layout_marginStart="128dp"
+        android:textSize="10pt"
+
+
+        />
+
+    <TextView
+        android:id="@+id/altura"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hgt"
+        android:layout_below = "@+id/nm_ed"
+        android:layout_alignStart="@+id/peso"
+        android:layout_marginTop="128dp"
+        android:layout_marginStart="128dp"
+        android:textSize="10pt"
+
+
+        />
+
+    <EditText
+        android:id="@+id/age_ed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/age"
+        android:layout_alignStart="@+id/age"
+
+        android:maxLength="3"
+        android:inputType="number"
+
+
+        android:layout_alignEnd="@+id/age"
+
+
+        />
+
+    <EditText
+        android:id="@+id/peso_ed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/peso"
+        android:layout_alignStart="@+id/peso"
+        android:layout_alignEnd="@+id/peso"
+        android:maxLength="5"
+        android:inputType="numberDecimal"
+
+
+
+
+        />
+
+    <EditText
+        android:id="@+id/altura_ed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/altura"
+        android:layout_alignStart="@+id/altura"
+        android:layout_alignEnd="@+id/altura"
+        android:inputType="numberDecimal"
+        android:maxLength="4"
+
+
+
+
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/calc"
+        android:layout_below="@+id/peso_ed"
+        android:layout_marginTop="180dp"
+        android:textSize="10pt"
+        android:onClick="btn_calc"
+        />
+
+
+
+
+</RelativeLayout>
